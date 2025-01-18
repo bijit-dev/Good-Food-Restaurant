@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* share style  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Work Sans", serif;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.button {
+    padding: 21px 32px;
+    color: rgb(255, 255, 255);
+    background: rgb(82, 195, 3);
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+/* banner style */
+.banner {
+    background: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+
+.banner h5 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    opacity: 0.8;
+}
+
+.banner h1 {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    opacity: 0.8;
+}
+
+.banner p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+/* card-box style */
+.card-box {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.card-box .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.card-box .container p {
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.6;
+}
+
+.card-box .container .tittle {
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.card-box .card {
+    width: 424px;
+}
+
+.card-box .card img {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.card-box .card .card-disc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.card-box .card .card-disc>div {
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px;
+}
+
+.card-box .card .card-disc .card-tittle {
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+}
+
+.card-box .card .card-disc p {
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* about style  */
+.about {
+    display: flex;
+
+}
+
+.about-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-container .title {
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 24px;
+}
+
+.about-container .about-disc {
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 78px;
+}
+
+.about-container .follow {
+    width: 100%;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+.about-container .follow h5 {
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    padding: 30px 0;
+}
